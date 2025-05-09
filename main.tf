@@ -9,7 +9,7 @@ terraform {
   cloud {
     organization = "ACME-Infrastructure-Demo" # Terraform Cloud organization name
     workspaces {
-      name = "terraform-cloud-demo"
+      name = "terraform-cloud-demo-v1"
     }
   }
 }
